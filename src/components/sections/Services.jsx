@@ -82,12 +82,12 @@ export function Services() {
             return (
               <motion.div key={service.id} variants={itemVariants} className={index === 3 ? "lg:col-start-1" : index === 4 ? "lg:col-start-2" : ""}>
                 <Card className="h-full border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-300">
-                  <CardContent className="p-8">
+                  <CardContent className="p-6 sm:p-8">
                     <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 ${service.color}`}>
                       <Icon className="h-7 w-7" />
                     </div>
-                    <h4 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h4>
-                    <p className="text-slate-600 leading-relaxed">
+                    <h4 className={`font-bold text-slate-900 mb-3 uppercase ${service.id === 'door-to-door' ? 'text-[15px] min-[360px]:text-[17px] min-[375px]:text-[18px] min-[390px]:text-[19px] min-[414px]:text-[20px] sm:text-[24px] md:text-[22px] lg:text-[18px] xl:text-[22px] whitespace-nowrap tracking-[-0.06em]' : 'text-lg sm:text-xl'}`}>{service.title}</h4>
+                    <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
                       {service.description}
                     </p>
                   </CardContent>

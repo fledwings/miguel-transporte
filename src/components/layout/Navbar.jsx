@@ -85,7 +85,7 @@ export function Navbar() {
               className="bg-red-600 hover:bg-red-700 text-white font-medium"
               onClick={(e) => handleScrollTo(e, '#contacto')}
             >
-              Cotizar Envío
+              Cotizar Servicio
             </Button>
           </div>
 
@@ -126,7 +126,7 @@ export function Navbar() {
                   className="w-full bg-red-600 hover:bg-red-700 text-white"
                   onClick={(e) => handleScrollTo(e, '#contacto')}
                 >
-                  Cotizar Envío
+                  Cotizar Servicio
                 </Button>
               </div>
             </div>

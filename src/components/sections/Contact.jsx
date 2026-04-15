@@ -91,7 +91,14 @@ export function Contact() {
                   <div className="ml-4 space-y-4">
                     <div>
                       <p className="text-sm font-semibold text-slate-900 mb-1">Sede México</p>
-                      <p className="text-slate-600 text-sm">Puebla, México (Oficina Principal)</p>
+                      <a 
+                        href="https://www.google.com/maps/search/?api=1&query=Carretera+Federal+México-Puebla+Km+93.5+Santa+María+Zacatepec,+Juan+C.+Bonilla,+Puebla+72660" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-slate-600 text-sm hover:text-red-600 hover:underline transition-colors block"
+                      >
+                        Carretera Federal México-Puebla Km 93.5 Santa María Zacatepec, Juan C. Bonilla, Puebla 72660
+                      </a>
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900 mb-1">Sede USA</p>
