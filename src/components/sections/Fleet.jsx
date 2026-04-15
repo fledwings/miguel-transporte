@@ -10,12 +10,12 @@ const FLEET = [
   },
   {
     title: 'Cajas Secas',
-    image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/5f339442-3444-4ce7-9309-225e564b17aa',
+    image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/529372c1-17c4-4047-8c53-5279546124fd',
     options: ['53 Pies (FT)', 'Unidad Torthon'],
   },
   {
     title: 'Plataformas',
-    image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/6769ddb3-3092-4b76-82d6-517a007c6caa',
+    image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/fddbcfd2-4f92-46c4-b408-4196a768b86e',
     options: ['Servicio Full', '3 Ejes', 'Encortinada', 'Torthon'],
   },
 ];

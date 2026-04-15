@@ -71,8 +71,7 @@ export function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center w-full">
             <Button onClick={scrollToContact} size="lg" className="bg-red-600 hover:bg-red-700 text-white font-semibold h-14 px-8 rounded-xl shadow-lg shadow-red-900/20 border-0">
-              <span className="sm:hidden">Cotizar Servicio</span>
-              <span className="hidden sm:inline">Contactar a Ventas</span>
+              <span>Cotizar Servicio</span>
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button asChild size="lg" variant="outline" className="h-14 px-8 rounded-xl border-white/20 bg-white/5 text-white font-semibold hover:bg-white/10 backdrop-blur-sm">

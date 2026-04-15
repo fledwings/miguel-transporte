@@ -9,7 +9,7 @@ const usaStates = [
 ];
 
 const mxDestinations = [
-  "Aguascalientes", "Campeche", "Chihuahua (Ciudad Juárez)", "Ciudad de México", "Coahuila (Saltillo)", "Estado de México (Toluca)", "Guanajuato (León)", "Guerrero (Acapulco)", "Hidalgo (Pachuca)", "Jalisco (Guadalajara)", "Morelos (Cuernavaca)", "Nuevo León (Monterrey)", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo (Cancún)", "San Luis Potosí", "Tabasco (Villahermosa)", "Tamaulipas (Nuevo Laredo)", "Tlaxcala", "Veracruz (Xalapa)", "Yucatán (Mérida)", "Rutas a convenir"
+  "Aguascalientes", "Campeche", "Chihuahua (Ciudad Juárez)", "Ciudad de México", "Ciudad Hidalgo, Chiapas", "Coahuila (Saltillo)", "Estado de México (Toluca)", "Guanajuato (León)", "Guerrero (Acapulco)", "Hidalgo (Pachuca)", "Jalisco (Guadalajara)", "Morelos (Cuernavaca)", "Nuevo León (Monterrey)", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo (Cancún)", "San Luis Potosí", "Tabasco (Villahermosa)", "Tamaulipas (Nuevo Laredo)", "Tlaxcala", "Veracruz (Xalapa)", "Yucatán (Mérida)", "Rutas a convenir"
 ];
 
 export function Coverage() {
@@ -73,7 +73,7 @@ export function Coverage() {
                     <div className="bg-emerald-500/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                       <MapPin className="h-6 w-6 text-emerald-400" />
                     </div>
-                    <div className="text-4xl font-extrabold text-white mb-2">23</div>
+                    <div className="text-4xl font-extrabold text-white mb-2">{mxDestinations.length}</div>
                     <div className="text-emerald-400 font-medium mb-1">Destinos en México</div>
                     <p className="text-sm text-blue-200">Cubriendo los principales nodos industriales y puertos del país.</p>
                   </button>
@@ -82,7 +82,7 @@ export function Coverage() {
                   <DialogHeader>
                     <DialogTitle className="text-xl text-emerald-600 flex items-center gap-2">
                       <MapPin className="h-5 w-5" />
-                      23 Destinos en México
+                      {mxDestinations.length} Destinos en México
                     </DialogTitle>
                   </DialogHeader>
                   <ScrollArea className="h-[300px] w-full rounded-md border p-4">
@@ -178,14 +178,14 @@ export function Coverage() {
                   <DialogTrigger asChild>
                     <button className="flex items-center justify-between p-4 bg-white/5 hover:bg-white/20 transition-colors rounded-xl border border-white/10 backdrop-blur-sm w-full cursor-pointer focus:outline-none focus:ring-2 focus:ring-emerald-400">
                       <span className="font-semibold text-white">México</span>
-                      <span className="text-emerald-400">23 Destinos</span>
+                      <span className="text-emerald-400">{mxDestinations.length} Destinos</span>
                     </button>
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-md bg-white text-slate-900 border-none shadow-2xl">
                     <DialogHeader>
                       <DialogTitle className="text-xl text-emerald-600 flex items-center gap-2">
                         <MapPin className="h-5 w-5" />
-                        23 Destinos en México
+                        {mxDestinations.length} Destinos en México
                       </DialogTitle>
                     </DialogHeader>
                     <ScrollArea className="h-[300px] w-full rounded-md border p-4">
