@@ -6,17 +6,17 @@ const FLEET = [
   {
     title: 'Portacontenedores',
     image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/26eb86ce-729e-413d-91f3-d6c188ee5bb7',
-    options: ['Servicio Full: Carga util tipica: 52 Toneladas', 'Servicio Sencillo: Carga util tipica: 30 Toneladas'],
+    options: ['Servicio Full', 'Servicio Sencillo'],
   },
   {
     title: 'Cajas Secas',
     image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/529372c1-17c4-4047-8c53-5279546124fd',
-    options: ['53 Pies (FT): Carga util tipica: 30 Toneladas', 'Unidad Torthon: Carga util tipica: 15 Toneladas'],
+    options: ['53 Pies (FT)', 'Unidad Torthon'],
   },
   {
     title: 'Plataformas',
     image: 'https://sensible-spoonbill-485.convex.cloud/api/storage/fddbcfd2-4f92-46c4-b408-4196a768b86e',
-    options: ['Servicio Full: Carga util tipica: 52 Toneladas', '3 Ejes: Carga util tipica: 36 Toneladas', 'Encortinada: Carga util tipica: 30 Toneladas', 'Torthon: Carga util tipica: 12 Toneladas'],
+    options: ['Servicio Full', '3 Ejes', 'Encortinada', 'Torthon'],
   },
 ];
 

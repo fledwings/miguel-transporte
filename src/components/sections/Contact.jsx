@@ -102,7 +102,14 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-slate-900 mb-1">Sede USA</p>
-                      <p className="text-slate-600 text-sm">Oficina de Representación Comercial, Estados Unidos</p>
+                      <a 
+                        href="https://www.google.com/maps/search/?api=1&query=5900+Balcones+Drive+STE+100+Austin,+TX+78731" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-slate-600 text-sm hover:text-red-600 hover:underline transition-colors block"
+                      >
+                        5900 Balcones Drive STE 100 Austin, TX 78731
+                      </a>
                     </div>
                   </div>
                 </div>
