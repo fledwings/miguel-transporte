@@ -1,6 +1,8 @@
 import React from 'react';
 import { Navbar } from '@/components/layout/Navbar';
 import { Hero } from '@/components/sections/Hero';
+import { AboutUs } from '@/components/sections/AboutUs';
+import { Values } from '@/components/sections/Values';
 import { Services } from '@/components/sections/Services';
 import { Fleet } from '@/components/sections/Fleet';
 import { Coverage } from '@/components/sections/Coverage';
@@ -15,6 +17,8 @@ export function HomePage() {
       <Navbar />
       <main className="flex-grow ">
         <Hero />
+        <AboutUs />
+        <Values />
         <Services />
         <Fleet />
         <Coverage />

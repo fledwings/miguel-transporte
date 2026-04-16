@@ -1,5 +1,13 @@
 import React from 'react';
-import { Truck, Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { Truck } from 'lucide-react';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '../ui/dialog';
 
 export function Footer() {
   return (
@@ -17,10 +25,31 @@ export function Footer() {
             <p className="text-sm text-slate-400 max-w-xs leading-relaxed">
               Soluciones integrales de transporte y logística a nivel nacional e internacional. Conectando México y Estados Unidos.
             </p>
-            <div className="flex gap-4 pt-2">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Linkedin className="h-5 w-5" /></a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Facebook className="h-5 w-5" /></a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Instagram className="h-5 w-5" /></a>
+            <div className="pt-2">
+              <Dialog>
+                <DialogTrigger className="text-sm text-slate-400 hover:text-white transition-colors underline underline-offset-4">
+                  Políticas de Privacidad
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[425px]">
+                  <DialogHeader>
+                    <DialogTitle>Políticas de Privacidad</DialogTitle>
+                    <DialogDescription>
+                      TLT Transport & Logistics respeta su privacidad y protege sus datos personales.
+                    </DialogDescription>
+                  </DialogHeader>
+                  <div className="text-sm text-slate-600 space-y-4">
+                    <p>
+                      La información recopilada se utilizará exclusivamente para proveer los servicios de transporte y logística solicitados, así como para facturación y comunicación relacionada.
+                    </p>
+                    <p>
+                      No compartimos su información con terceros sin su consentimiento, salvo por requerimiento legal aplicable.
+                    </p>
+                    <p>
+                      Para cualquier duda o aclaración sobre el tratamiento de sus datos, por favor contáctenos a través de nuestros canales oficiales.
+                    </p>
+                  </div>
+                </DialogContent>
+              </Dialog>
             </div>
           </div>
 

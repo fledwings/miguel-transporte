@@ -5,11 +5,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const NAV_LINKS = [
   { name: 'Inicio', href: '#inicio' },
+  { name: 'Nosotros', href: '#nosotros' },
+  { name: 'Valores', href: '#valores' },
   { name: 'Servicios', href: '#servicios' },
   { name: 'Flotilla', href: '#flotilla' },
   { name: 'Cobertura', href: '#cobertura' },
   { name: 'Clientes', href: '#clientes' },
-  { name: 'Contacto', href: '#contacto' },
 ];
 
 export function Navbar() {
