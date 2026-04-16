@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function WhatsAppButton() {
-  const whatsappNumber = "16464688285"; // Number without formatting for the link
+  const whatsappNumber = "522227247255"; // Number without formatting for the link
   const whatsappMessage = "Hola, me gustaría obtener más información sobre sus servicios logísticos.";
 
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;

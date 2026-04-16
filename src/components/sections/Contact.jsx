@@ -65,8 +65,8 @@ export function Contact() {
                   <div className="ml-4">
                     <p className="text-sm font-semibold text-slate-900 mb-1">WhatsApp</p>
                     <p className="text-slate-600 text-sm">
-                      <a href="https://wa.me/16464688285" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 hover:underline transition-colors">
-                        +1 646 468 8285
+                      <a href="https://wa.me/522227247255" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 hover:underline transition-colors">
+                        +52 222 724 7255
                       </a>
                     </p>
                   </div>
