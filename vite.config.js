@@ -1,21 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
-
-export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-  server: {
-    historyApiFallback: true,
-    host: '0.0.0.0',
-    port: 3000,
-    hmr: {
-      clientPort: 3000,
-    },
-    allowedHosts: ['.e2b.app', '.e2b.dev'],
-  },
-})
+<!DOCTYPE html>
+<html lang="es" className="scroll-smooth">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
+    <title>TLT Transport and Logistics</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
