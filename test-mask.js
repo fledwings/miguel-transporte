@@ -1,2 +1,14 @@
-VITE_SUPABASE_URL=https://daejryjnpilncyhglcfh.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRhZWpyeWpucGlsbmN5aGdsY2ZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2OTg0OTcsImV4cCI6MjA5MTI3NDQ5N30.TmGcShj9z-GwI0TuSOm2PvaOdh0_5wIbIzdNJsIVGoo
+function getMask(scroll) {
+  // Map scroll 0 -> 800
+  // blackPoint: 100 -> -50
+  // transparentPoint: 100 -> 50
+  let bp = 100 - (scroll / 800) * 150;
+  let tp = 100 - (scroll / 800) * 50;
+  return `linear-gradient(to bottom, black ${bp}%, transparent ${tp}%)`;
+}
+
+console.log(getMask(0));
+console.log(getMask(200));
+console.log(getMask(400));
+console.log(getMask(600));
+console.log(getMask(800));
